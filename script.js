@@ -1,5 +1,5 @@
 /*
-  MEDIVISIT HQ — ALL-IN-ONE JAVASCRIPT DATA LAYER
+  MEDIVISIT  — ALL-IN-ONE JAVASCRIPT DATA LAYER
   Exactly three project files are used: index.html, style.css, script.js.
 
   Visitor data is saved in localStorage. It survives refreshes and reopening
@@ -8,8 +8,8 @@
 */
 
 const $ = id => document.getElementById(id);
-const STORAGE_KEY = "medivisit_hq_visitors_v2";
-const STAFF_KEY = "medivisit_hq_staff_v1";
+const STORAGE_KEY = "medivisit_visitors_v2";
+const STAFF_KEY = "medivisit_staff_v1";
 
 const state = {
   staff: sessionStorage.getItem(STAFF_KEY) || "",
